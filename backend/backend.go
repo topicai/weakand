@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	"github.com/huichen/sego"
-	"github.com/wangkuiyi/weakand"
+	"github.com/topicai/weakand"
 )
 
 type SearchServer struct {
