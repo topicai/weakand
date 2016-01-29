@@ -1,6 +1,6 @@
 # `weakand`
 
-[![Build Status](https://travis-ci.org/wangkuiyi/weakand.svg?branch=develop)](https://travis-ci.org/wangkuiyi/weakand)
+[![Build Status](https://travis-ci.org/topicai/weakand.svg?branch=develop)](https://travis-ci.org/topicai/weakand)
 
 `weakand` is a Go implementation of the Weak-AND retrieval algorithm
 and a search engine.  The search engine includes an HTTP frontend

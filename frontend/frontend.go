@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/wangkuiyi/weakand"
+	"github.com/topicai/weakand"
 )
 
 var (

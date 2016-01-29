@@ -32,14 +32,14 @@ func TestSearch(t *testing.T) {
 
 func TestSearchWithAAAI14Titles(t *testing.T) {
 	testWithBigData(t,
-		"github.com/wangkuiyi/weakand/testdata/aaai14papers.txt",
+		"github.com/topicai/weakand/testdata/aaai14papers.txt",
 		"incomplete ontologies",
 		"aaai14titlesindex.csv")
 }
 
 func TestSearchWithZhWikiNews(t *testing.T) {
 	testWithBigData(t,
-		"github.com/wangkuiyi/weakand/testdata/zhwikinews.txt",
+		"github.com/topicai/weakand/testdata/zhwikinews.txt",
 		"中药商",
 		"zhwikinewsindex.csv")
 }

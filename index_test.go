@@ -60,7 +60,7 @@ func TestBuildIndex(t *testing.T) {
 }
 
 func TestDocumentHashCollision(t *testing.T) {
-	WithFile(path.Join(gosrc(), "github.com/wangkuiyi/weakand/testdata/internet-zh.num"),
+	WithFile(path.Join(gosrc(), "github.com/topicai/weakand/testdata/internet-zh.num"),
 		func(f *os.File) {
 			dict := make(map[DocId][]string)
 			scanner := bufio.NewScanner(f)
